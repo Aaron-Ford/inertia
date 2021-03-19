@@ -87,6 +87,8 @@ p{
 		font-weight: 900;
 		font-family: 'Spartan', sans-serif;
 		text-transform: uppercase;
+		border: none;
+		outline: none;
 
 }
 
@@ -163,11 +165,10 @@ main .card:hover{
 	display: none;
 	z-index: 2;
 	backdrop-filter: blur(5px) grayscale(.5) ;
+	overflow-y: auto;
 }
 
 .modal .content{
-top: 50%;
-transform: translateY(-50%);
 position: relative;
 }
 
@@ -270,6 +271,33 @@ textarea{
 	width: calc(100% - 4em);
 }
 
+.modal h1{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 .modal.active .card{
 	transform: scale(1,1)
+}
+
+.modal .exit{
+color: var(--color-navy);
+font-size: 2em;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 2;
+margin: 0;
+font-family: 'Spartan';
+padding: .75em 1em;
+transition: .3s ease;
+display: inline-block;
+line-height: 0;
+line-height: 1em;
+}
+
+.modal .exit:hover{
+	cursor: pointer;
+	background-color: var(--color-mint);
+	color: var(--color-navy);
 }
