@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	 <link rel="icon" href="favicon-192.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 	<title>Inertia Creations</title>
 </head>
@@ -17,6 +16,20 @@
 		<div class="content">
 			<div class="card">
 				<h1 class="background-highlight-light">Contact Us</h1>
+				<form name="contact" method="POST" data-netlify="true" action="success.html">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit" class="button">Send</button>
+  </p>
+</form>
 			</div>
 		</div>
 	</div>
@@ -58,20 +71,7 @@
 		are able to offer to you.</p>
 		<a class="contact-us button button-navy">Contact Us</a>
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit" class="button">Send</button>
-  </p>
-</form>
+
 
 
 	</div>
