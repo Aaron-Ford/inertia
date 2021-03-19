@@ -4,6 +4,15 @@
 	--color-light-blue: #bacbd9;
 }
 
+body{
+	opacity: 0;
+	transition: .5s ease-in;
+}
+
+body.visible{
+	opacity: 1;
+}
+
 h1{
 	font-family: 'Spartan', sans-serif;
 	text-transform: uppercase;

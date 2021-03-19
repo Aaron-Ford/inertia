@@ -7,3 +7,5 @@ $('.exit').click(function(){
 	$('.modal').fadeOut();
 	$('.modal').removeClass('active');
 })
+
+document.body.className = "visible";
