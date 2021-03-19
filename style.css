@@ -238,9 +238,9 @@ position: relative;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg) translateX(50%);
+    transform: rotate(180deg);
         min-width: 1000px;
-        left: 50%;
+ 
 
 }
 
@@ -262,10 +262,10 @@ position: relative;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg) translateX(50%);
+    transform: rotate(180deg);
     z-index: -1;
     min-width: 1000px;
-    left: 50%;
+
 }
 
 .custom-shape-divider-top-1616185972 svg {
