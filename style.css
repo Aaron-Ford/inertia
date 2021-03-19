@@ -21,6 +21,7 @@ margin-bottom: 0;
 	font-family: 'Spartan', sans-serif;
 	font-weight: 900;
 	font-family: 'Noto Serif', serif;
+	white-space: pre;
 }
 .highlight-dark{
 	color: var(--color-navy);
@@ -192,7 +193,7 @@ position: relative;
 	z-index: 1;
 	content: '';
 	opacity: 1;
-	backdrop-filter: blur(5px) grayscale(1);
+	backdrop-filter: grayscale(1);
 }
 
 .background-video-header .content{
@@ -227,6 +228,54 @@ position: relative;
 
 .custom-shape-divider-bottom-1616178221 .shape-fill {
     fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1616185921 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg) translateX(50%);
+        min-width: 1000px;
+        left: 50%;
+
+}
+
+.custom-shape-divider-top-1616185921 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 251px;
+}
+
+.custom-shape-divider-top-1616185921 .shape-fill {
+    fill: #234468;
+}
+
+.custom-shape-divider-top-1616185972 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg) translateX(50%);
+    z-index: -1;
+    min-width: 1000px;
+    left: 50%;
+}
+
+.custom-shape-divider-top-1616185972 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 382px;
+}
+
+.custom-shape-divider-top-1616185972 .shape-fill {
+    fill: #BACBD9;
 }
 
 .logo{
@@ -300,4 +349,28 @@ line-height: 1em;
 	cursor: pointer;
 	background-color: var(--color-mint);
 	color: var(--color-navy);
+}
+
+.testimonial{
+	height: 30em;
+	position: relative;
+	background-color: var(--color-navy);
+	margin-top: 7em;
+	padding-top: 3em;
+}
+
+
+
+.contact-us-container{
+	position: relative;
+	padding-top: 500px;
+}
+
+#myVideo{
+	position: absolute;
+z-index: 0;
+height: 100%;
+width: 100%;
+object-fit: cover;
+object-position: center center;
 }
