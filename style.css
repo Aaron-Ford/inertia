@@ -183,6 +183,7 @@ position: relative;
 	background-attachment: fixed;
 	overflow: hidden;
 	position: relative;
+
 }
 
 .background-video-header::before{
@@ -193,7 +194,7 @@ position: relative;
 	z-index: 1;
 	content: '';
 	opacity: 1;
-	backdrop-filter: grayscale(1);
+	backdrop-filter: blur(5px) grayscale(1)
 }
 
 .background-video-header .content{
