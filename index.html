@@ -8,6 +8,9 @@
 	 <link rel="icon" href="favicon-192.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 	<title>Inertia Creations</title>
 </head>
 <body>
@@ -56,9 +59,9 @@
 
 	<div class="spacer"></div>
 	<div class="content-wide">
-		<h1 class="background-highlight-light">Our Team</h1>
+		<h1 class="background-highlight-light" data-aos="fade-right">Our Team</h1>
 		<!-- Our Team -->
-		<div class="grid">
+		<div class="grid"  data-aos="fade-up">
 			<div class="card card-highlight-top"><img alt="Colin Rickman Portrait" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"><h3>Colin Rickman</h3><p>Title here</p></div>
 			<div class="card card-highlight-top"><img alt="Ben Kalb Portrait" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"><h3>Ben Kalb</h3><p>Title here</p></div>
 			<div class="card card-highlight-top"><img alt="Aaron Ford Portrait" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"><h3>Aaron Ford</h3><p>Title here</p></div>
@@ -85,11 +88,11 @@
     </svg>
 </div>
 		<!-- Contact Us Section -->
-		<h1 class="background-highlight-light">Contact Us</h1>
-		<p>Take the first step, by contacting us today. After an initial meeting to better understand
+		<h1 class="background-highlight-light" data-aos="fade-up">Contact Us</h1>
+		<p data-aos="fade-up">Take the first step, by contacting us today. After an initial meeting to better understand
 			your goals and vision, <span class="highlight-dark">we will send you a proposal</span> clearly document what services we
 		are able to offer to you.</p>
-		<a class="contact-us button button-navy">Contact Us</a>
+		<div data-aos="fade-up"><a class="contact-us button button-navy">Contact Us</a></div>
 	</div>
 
 
@@ -97,6 +100,16 @@
 
 	</div>
 	<div class="spacer"></div>
+<div class="vimeo-wrapper aos-init aos-animate" data-aos="fade-right" style="height: 100vh;overflow: hidden;/*! padding-bottom: 100%; */width: 100%;transition: .3s ease;/*! width: 0; */background-color: black;height: 56.25vw;"><iframe src="https://player.vimeo.com/video/305363625?controls=0&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0&amp;color=afffda&amp;muted=1" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="/*! max-width: 100%; */width: 100vw;height: 100vh;position: absolute;opacity: .5;min-height: 100%;min-width: 100%;position: absolute;top: 50%;transform: translateY(-50%);" width="1920" height="1080" frameborder="0"></iframe>
+	<div class="video-text-overlay">
+		<h2>Title</h2>
+		<p>This is a test description for this.</p>
+		<a class="button">Watch Now</a>
+	</div>
+</div>
+ 
+
+
 	<div class="spacer"></div>
 
 </main>
@@ -108,4 +121,5 @@ src="https://code.jquery.com/jquery-3.6.0.min.js"
 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
+
 </html>
